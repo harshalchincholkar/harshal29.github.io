@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    /* background-color: bisque; */
+    background-image: linear-gradient(to right, #81b9ed , #f7b0da );
+    /* background-size: cover; */
+    font-family: "Poppins", sans-serif;
+}
+.pageMain{
+    padding: 20px 60px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    gap: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.navbar ul  li:hover{
+    background-color: rgba(198, 198, 198, 0.748);
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerContainer{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .headings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.resume{
+    padding:9px 12px;
+    /* background-color: rgb(233, 231, 231); */
+    border: 1px solid rgb(81, 81, 80);
+    border-radius: 20px;
+    margin: 10px 0;
+}
+.resume a{
+    color: black;
+    text-decoration: none;
+}
+.resume:hover{
+    background-color: black;
+}
+.resume:hover a{
+    color: white;
+}
+.image-container img {
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 5px #3a3a3a;
+}
+/* /======================================== */
+#about{
+    margin: 60px 0;
+}
+#about h2, #strengths h2, #interests h2{
+    width: fit-content;
+    padding: 8px 14px ;
+    border: 1px solid rgb(192, 192, 188);
+    border-radius: 5px;
+    font-size: 30px;
+}
+#about p{
+    padding-right: 50px;
+    margin: 15px ;
+    font-size: 20px;
+}
+#strengths ul{
+    margin: 35px  15px;
+    font-size: 20px;
+}
+
+/* #interests h2{
+    margin: 15px 0;
+    font-size: 30px;
+} */
+.logos{
+    margin-top: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 20px; */
+    width: 90%;
+}
+.logoimg{
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 8px;
+    box-shadow: 0 0 8px 8px rgba(239, 239, 239, 0.222);
+    height: 100px;
+    width: 110px;
+    margin: 10px;
+}
+.logoimg img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.contactLogoContainer{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+
+
+}
+.contactLogo{
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin:4px 17px;
+}
+.contactLogo a img{
+    width: 100%;
+    height: 100%;
+}
+
+.contactme{
+    margin: 50px 4px;
+    font-size: 29px;
+    padding: 9px 14px;
+    width: fit-content;
+    font-size: 30px;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 8px;
+    box-shadow: 0 0 8px 8px rgba(239, 239, 239, 0.222);
+}
+
+.eduHeading{
+    margin: 30px 0;
+    padding: 10px 10px;
+    width: fit-content;
+    font-size: 30px;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 8px;
+    box-shadow: 0 0 8px 8px rgba(239, 239, 239, 0.222);
+
+}
+
+.education p{
+    margin: 10px 20px;
+    font-size: 20px;
+}
+
+
+.certificatesContainer{
+    padding: 20px 20px;
+    margin: 10px 0;    
+
+}
+.certificate{
+    margin: 19px;
+    width: 310px;
+    height: 160px;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 8px;
+    box-shadow: 0 0 8px 8px rgba(239, 239, 239, 0.222);
+}
+.certificate img{
+    width: 100%;
+    height: 100%S;
+}
+
+
+.projects{
+    padding: 20px 10px;
+    margin-top: 30px;
+}
+.projects h2,p{
+    margin:10px 0;
+}
+.projects p{
+    font-size: 20px;
+}
+
+.pics img {
+    height: 200px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px 5px #3a3a3a;
+
+}
+
+.pics {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 200px;
+    width: 300px;
+    
+}
+.zzz {
+    margin-bottom: 100px;
+}
